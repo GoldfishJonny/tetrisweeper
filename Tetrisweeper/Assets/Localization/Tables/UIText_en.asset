@@ -1,0 +1,754 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UIText_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 0dd1e0fbba483424bbb601167d9eb8a1, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 1684021998389821468
+  m_TableData:
+  - m_Id: 15111020544
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3884008333312
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 691795221536768
+    m_Localized: Best Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688583756210176
+    m_Localized: Mines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 691701722112000
+    m_Localized: Best Today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 691682109546496
+    m_Localized: High Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 690552633810944
+    m_Localized: Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692206200414208
+    m_Localized: Lines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692866870403072
+    m_Localized: Tetrisweeps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 693625464807424
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 693945486008320
+    m_Localized: Can't Quit in Browser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694159798165504
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694324101636096
+    m_Localized: T-Spinsweeps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 694970670374912
+    m_Localized: Endless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 696069942927360
+    m_Localized: Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697409771397120
+    m_Localized: Marathon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697412782907392
+    m_Localized: Flash Marathon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697414372548608
+    m_Localized: 40-Line Sprint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697420861136896
+    m_Localized: 'Ultra:
+
+      Time Trial'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697421989404672
+    m_Localized: Flash Ultra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697429551734784
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697599509127168
+    m_Localized: Obscured Marathon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 925355878637568
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 925670325608448
+    m_Localized: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 925714365800448
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 933890872041472
+    m_Localized: Restore Defaults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 925742983536640
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 926408846073856
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 926506682408960
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 926602874576896
+    m_Localized: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 926629294497792
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 926659917111296
+    m_Localized: Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 926682805428224
+    m_Localized: Reduce Animations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 926709879660544
+    m_Localized: Show Lock Delay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928909536256000
+    m_Localized: Cleanse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928788438310912
+    m_Localized: Flag Chord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928735476834304
+    m_Localized: Flag Tile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928722587738112
+    m_Localized: Chord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928708620705792
+    m_Localized: Reveal Tile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928694787891200
+    m_Localized: Hard Clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928682272088064
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 934286541709312
+    m_Localized: Block Falling Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928656833634304
+    m_Localized: Hold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928642711412736
+    m_Localized: Hard Drop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928630334021632
+    m_Localized: Soft Drop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928615494574080
+    m_Localized: Rotate Counter-Clockwise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928580065288192
+    m_Localized: Rotate Clockwise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 928546846400512
+    m_Localized: Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927883198455808
+    m_Localized: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 934315432075264
+    m_Localized: Minesweeper Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951658765869056
+    m_Localized: Customize Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951608887205888
+    m_Localized: Edit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951849149521920
+    m_Localized: Coming Soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 952127466758144
+    m_Localized: Scoring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 952161780359168
+    m_Localized: Leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 963399100915712
+    m_Localized: Endless Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 963558551576576
+    m_Localized: Game Over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 988652401319936
+    m_Localized: Survive up to 150 lines, and try to get the highest score possible!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 988835440746496
+    m_Localized: Clear 40 lines as fast as possible!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 989111895711744
+    m_Localized: The easier, faster-paced version of Marathon where lines clear instantly!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 989231202689024
+    m_Localized: Coming soon...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 989810910027776
+    m_Localized: Get the highest score possible in three minutes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 989813380472832
+    m_Localized: 'Get the highest score possible in three minutes, using Flash rules! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990195708059648
+    m_Localized: Click to view in your browser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990308941684736
+    m_Localized: Join our Community Discord to get your name on the official leaderboard!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990401673551872
+    m_Localized: Thank you for playing!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990658520145920
+    m_Localized: :(
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990813138968576
+    m_Localized: Join the official Tetrisweeper Community Discord!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990814418231296
+    m_Localized: Share your high scores with #Tetrisweeper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990815487778816
+    m_Localized: Download the standalone version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990816574103552
+    m_Localized: Check out our community playlist!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990817517821952
+    m_Localized: Do you want to buy me a coffee? Thank you for your support!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991654902226944
+    m_Localized: 'Cleanse: Clear all mines in hold, +250 points'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 992047333892096
+    m_Localized: Tetrisweep is when you clear all 4 lines in a 4-line tetris you
+      just filled, before the next tetromino locks into place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 992048869007360
+    m_Localized: T-Spinsweep is when you score a T-spin and clear every line that
+      the T tetromino filled, before the next tetromino locks into place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427307444035584
+    m_Localized: Dots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427339857616896
+    m_Localized: Marathon mode, but tile numbers are replaced with dots!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647393605935104
+    m_Localized: Walls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647422219476992
+    m_Localized: Instead of unlocking safe tiles as you play, the walls of the game
+      board are now playable tiles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2474781692649472
+    m_Localized: Wishlist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2474781847838720
+    m_Localized: On Steam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2474861069852672
+    m_Localized: Unlock bonus game modes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2475075038076928
+    m_Localized: Tetrisweep like never before!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2512304913506304
+    m_Localized: Locked!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5052179397636096
+    m_Localized: Block Placing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5052349606686720
+    m_Localized: Minesweeping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5052351666089984
+    m_Localized: Tetrisweeping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7178027099217920
+    m_Localized: Video
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7178044815958016
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7178065133166592
+    m_Localized: Handling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7178359053213696
+    m_Localized: Video Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7178438203924480
+    m_Localized: Audio Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7178483062005760
+    m_Localized: Handling Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7288987847745536
+    m_Localized: 'ARR: Auto Repeat Rate'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7289007573557248
+    m_Localized: 'DAS: Delayed Auto Shift'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7289023503523840
+    m_Localized: 'DCD: DAS Cut Delay'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7289036057075712
+    m_Localized: 'SDF: Soft Drop Factor'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8261547250933760
+    m_Localized: Localization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8261772770271232
+    m_Localized: Created by
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8261872057835520
+    m_Localized: Special thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8635273809223680
+    m_Localized: Additional Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8641451649916928
+    m_Localized: Press any key to continue...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8664569943060480
+    m_Localized: Tetrisweeper Supporters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23899711646720000
+    m_Localized: Line-Fill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23899852948627456
+    m_Localized: Double-Fill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900050827501568
+    m_Localized: Triple-Fill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900053100814336
+    m_Localized: Tetri-Fill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900055583842304
+    m_Localized: In-place Lock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900056825356288
+    m_Localized: T-Spin Mini no lines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900058133979136
+    m_Localized: T-Spin no lines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900060650561536
+    m_Localized: T-Spin Mini Single
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900062789656576
+    m_Localized: T-Spin Single
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900064362520576
+    m_Localized: T-Spin Mini Double
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900065469816832
+    m_Localized: T-Spin Double
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900066350620672
+    m_Localized: T-Spin Triple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900067399196672
+    m_Localized: Back-to-back Difficult Fill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900068477132800
+    m_Localized: 'Combo: Line Filled'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900069341159424
+    m_Localized: Perfect clear (Single-line)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900070171631616
+    m_Localized: Perfect clear (Double-line)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900070930800640
+    m_Localized: Perfect clear (Triple-line)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900071694163968
+    m_Localized: Perfect clear (Tetri-Fill)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900072453332992
+    m_Localized: Back-to-Back Tetri-Fill Perfect Clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900073984253952
+    m_Localized: Instant Perfect Clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900074789560320
+    m_Localized: Lines Cleared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900075540340736
+    m_Localized: Linesweep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900076320481280
+    m_Localized: Duosweep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900077041901568
+    m_Localized: Triosweep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900077788487680
+    m_Localized: Tetrisweep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900078597988352
+    m_Localized: T-Spinsweep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900079352963072
+    m_Localized: Back-to-back Difficult Sweep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900080103743488
+    m_Localized: Instant Sweep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900080942604288
+    m_Localized: High Clear (Row 6 or higher)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900081680801792
+    m_Localized: High Clear (Row 11 or higher)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900082452553728
+    m_Localized: High Clear (Row 16 or higher)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900083224305664
+    m_Localized: 'Combo: Tile Revealed'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900084004446208
+    m_Localized: Automatic Reveal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900084797169664
+    m_Localized: Failed Chord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900085510201344
+    m_Localized: High Reveal (Row 6 or higher)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900086307119104
+    m_Localized: High Reveal (Row 11 or higher)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900087116619776
+    m_Localized: High Reveal (Row 16 or higher)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900087833845760
+    m_Localized: Manual Reveal Streak (50 tiles)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900088626569216
+    m_Localized: 8 Tile Revealed or Created
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25670915286097920
+    m_Localized: How quickly the tetromino moves left or right while holding down
+      the movement keys. The delay between each step is measured in milliseconds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25670925239181312
+    m_Localized: The delay between holding down a movement key and the tetromino
+      automatically moving, measured in milliseconds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25670928355549184
+    m_Localized: The amount of time that DAS will pause when dropping or rotating
+      the tetromino, measured in milliseconds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25670929269907456
+    m_Localized: How many times faster the tetromino will fall when holding down
+      the soft drop key.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25682277726937088
+    m_Localized: 20G
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25682727771561984
+    m_Localized: Tetrominoes fall instantly, and lock delay decreases with your level!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25684283195645952
+    m_Localized: Tiny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25684335494422528
+    m_Localized: Pack pieces tight in this tiny 4x4 board.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33916605992787968
+    m_Localized: Inferno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33916642458066944
+    m_Localized: Freezerburn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33916636179193856
+    m_Localized: Turn up the heat! The board is burning down, and there's no margin
+      for error.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33916729900916736
+    m_Localized: The board has frozen over! Melt ice to reveal its mine count, and
+      be careful where you place your fire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33934480497434624
+    m_Localized: 'Don''t play
+
+      with fire!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33934176091627520
+    m_Localized: Burning Tile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33934857829605376
+    m_Localized: Be careful clicking on fire, any mistake will end the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35060915790405632
+    m_Localized: Minesweeper Input Delay on Line Clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35064038974021632
+    m_Localized: The amount of time that minesweeper controls are ignored after a
+      line clear, measured in milliseconds. This will help prevent misclicks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35518550016778240
+    m_Localized: Go!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37581987358171136
+    m_Localized: Show Preview Space Above Board
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38041025724276736
+    m_Localized: Full Screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38389880462499840
+    m_Localized: 1-Line Impasse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38389882937139200
+    m_Localized: "The game ends as soon as you clear a line\u2026 but there\u2019s
+      more than one way to score points."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40055335533572096
+    m_Localized: Grid Opacity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40055569626066944
+    m_Localized: Shake Strength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53604674075783168
+    m_Localized: Instant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53604947716370432
+    m_Localized: Back-to-back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53619736878411776
+    m_Localized: Line Cleared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53644324463079424
+    m_Localized: Tile Revealed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54015456424914944
+    m_Localized: Tetrisweep Staggered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57250668348862464
+    m_Localized: Add to Steam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57250970259058688
+    m_Localized: Join our
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121750644019159040
+    m_Localized: Line Clear Delay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121750759047946240
+    m_Localized: While enabled, line clears will play an animation that lasts 150
+      milliseconds. The game is paused during this time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124931417172242432
+    m_Localized: 1-Line Sprint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124932309430726656
+    m_Localized: Clear 1 line as fast as possible!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1684021998389821468
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 680742714597376
