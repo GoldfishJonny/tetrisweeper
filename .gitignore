@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-Minesweeper/[Ll]ibrary/
-Minesweeper/[Tt]emp/
-Minesweeper/[Oo]bj/
-Minesweeper/[Bb]uild/
-Minesweeper/[Bb]uilds/
-Minesweeper/[Ll]ogs/
-Minesweeper/[Uu]ser[Ss]ettings/
+Tetrisweeper/[Ll]ibrary/
+Tetrisweeper/[Tt]emp/
+Tetrisweeper/[Oo]bj/
+Tetrisweeper/[Bb]uild/
+Tetrisweeper/[Bb]uilds/
+Tetrisweeper/[Ll]ogs/
+Tetrisweeper/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
