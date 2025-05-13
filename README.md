@@ -7,7 +7,7 @@ This repository is a fork of [KertisJones/Tetrisweeper](https://github.com/Origi
 - **Steam integration removed**  
   All Steamworks and overlay callbacks have been stripped out to simplify dependencies and build process.
 - **WebSocket-based GameState API**  
-  Introduced a lightweight WebSocket server in `Chechisheeper/server` and a matching client in Unity that:
+  Introduced a lightweight WebSocket server in `server` and a matching client in Unity that:
   - Publishes the current game state (`/state` endpoint)  
   - Accepts movement commands (`/command` endpoint)  
 
