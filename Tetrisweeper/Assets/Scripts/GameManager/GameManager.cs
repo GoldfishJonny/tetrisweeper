@@ -811,7 +811,21 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+    public List<GameObject> getfloorTiles()
+    {
+        return floorTiles;
+    }
 
+    public List<GameObject> getLeftBorderTiles()
+    {
+        return leftBorderTiles;
+    }
+
+    public List<GameObject> getRightBorderTiles()
+    {
+        return rightBorderTiles;
+    }
+    
     public static bool decreaseRow(int y) // returns true if the falling piece clips into the falling row
     {
         GameManager gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
@@ -837,8 +851,8 @@ public class GameManager : MonoBehaviour
                     {
                         Group activeMino = gameBoard[x][y - 1].GetComponentInParent<Group>();
                         int i = 1;
-                        while (!activeMino.WallKickMove(0, i, true, false)) 
-                        { 
+                        while (!activeMino.WallKickMove(0, i, true, false))
+                        {
                             i++;
                         }
                         currentTetrominoClipped = true;
@@ -854,8 +868,8 @@ public class GameManager : MonoBehaviour
                         // Update Block position
                         gameBoard[x][y - 1].GetComponent<Tile>().coordY -= 1;
                     }
-                    
-                }                
+
+                }
             }
         }
 

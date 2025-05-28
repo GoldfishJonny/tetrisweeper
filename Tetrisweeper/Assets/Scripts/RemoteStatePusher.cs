@@ -18,13 +18,19 @@ public class PieceDto {
     public List<Vector2Int> cells;
 }
 [Serializable]
-public class BoardStateDto {
+public class BoardStateDto
+{
     public int linesCleared;
     public int level;
-    public List<TileDto> board;
     public PieceDto nextPiece;
     public PieceDto heldPiece;
-    public List<Vector2Int> ghostCells;
+
+    public PieceDto currentPiece;
+
+    public List<TileDto> floorTiles;
+    public List<TileDto> rightWallTiles;
+    public List<TileDto> leftWallTiles;
+    public List<TileDto> board;
 }
 
 [Serializable]
@@ -71,20 +77,18 @@ public class RemoteStatePusher : MonoBehaviour {
         Debug.Log("[RemoteStatePusher] WS initialized");
     #endif
         // hook into your game events
-        GameManager.OnNewPieceEvent    += PushCurrentState;
-        GameManager.OnHardDropEvent    += PushCurrentState;
-        GameManager.OnLeftStuckEvent   += PushCurrentState;
-        GameManager.OnRightStuckEvent  += PushCurrentState;
-        GameManager.OnMinoLockEvent    += PushCurrentState;
+        GameManager.OnNewPieceEvent += () => StartCoroutine(DelayedPush());
         yield break;
     }
 
     void OnDestroy() {
         GameManager.OnNewPieceEvent    -= PushCurrentState;
-        GameManager.OnHardDropEvent    -= PushCurrentState;
-        GameManager.OnLeftStuckEvent   -= PushCurrentState;
-        GameManager.OnRightStuckEvent  -= PushCurrentState;
-        GameManager.OnMinoLockEvent    -= PushCurrentState;
+    }
+
+    IEnumerator DelayedPush()
+    {
+        yield return new WaitForSeconds(0.2f); 
+        PushCurrentState();
     }
 
     void PushCurrentState() {
@@ -134,7 +138,30 @@ public class RemoteStatePusher : MonoBehaviour {
         dto.heldPiece = (holdComp != null && holdComp.heldTetromino != null)
             ? BuildPieceDto(holdComp.heldTetromino)
             : null;
+        dto.currentPiece = _spawner.currentTetromino != null
+            ? BuildPieceDto(_spawner.currentTetromino)
+            : null;
+        dto.floorTiles = BuildTileDtos(_gm.getfloorTiles());
+        dto.rightWallTiles = BuildTileDtos(_gm.getRightBorderTiles());
+        dto.leftWallTiles = BuildTileDtos(_gm.getLeftBorderTiles());
         return dto;
+    }
+
+    List<TileDto> BuildTileDtos(List<GameObject> tiles) {
+        var tileDtos = new List<TileDto>();
+        foreach (var tile in tiles) {
+            var t = tile.GetComponent<Tile>();
+            if (t == null) continue;
+            tileDtos.Add(new TileDto {
+                x = t.coordX,
+                y = t.coordY,
+                isRevealed = t.isRevealed,
+                isFlagged = t.isFlagged,
+                nearbyMines = t.isRevealed ? t.nearbyMines : -1,
+                aura = t.aura.ToString()
+            });
+        }
+        return tileDtos;
     }
 
     PieceDto BuildPieceDto(GameObject piece) {
